@@ -21,7 +21,7 @@
     "grunt-mocha-test": "^0.12.7"
   },
   "directories": {
-    "test": "node ./node_modules/.bin/grunt test"
+    "test": "node ./node_modules/.bin/grunt jshint test"
   },
   "repository": {
     "type": "git",
