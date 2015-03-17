@@ -1,0 +1,31 @@
+{
+  "name": "grunt-htmlcommenttemplate",
+  "version": "0.0.0",
+  "description": "Update HTML files with <!-- Comment format Template --> Tags.",
+  "main": "tasks/htmltemplate.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --recursive -R spec",
+    "test-cov": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --recursive -R spec"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "latest",
+    "codeclimate-test-reporter": "latest",
+    "coveralls": "latest",
+    "istanbul": "latest",
+    "mocha": "latest"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daikiueda/grunt-htmlcommenttemplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daikiueda/grunt-htmlcommenttemplate/issues"
+  },
+  "homepage": "https://github.com/daikiueda/grunt-htmlcommenttemplate"
+}
