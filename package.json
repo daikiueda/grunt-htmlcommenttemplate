@@ -10,7 +10,7 @@
     "grunt": "~0.4.5"
   },
   "dependencies": {
-    "htmlcommenttemplate": "0.0.3"
+    "htmlcommenttemplate": "0.0.4"
   },
   "devDependencies": {
     "chai": "^2.1.2",
