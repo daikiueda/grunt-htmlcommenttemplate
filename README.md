@@ -36,6 +36,3 @@ grunt.initConfig( {
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-* 2015-03-18   v0.0.1   experimental.
