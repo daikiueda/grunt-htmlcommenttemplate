@@ -1,4 +1,4 @@
-# grunt-htmlcommenttemplate
+# grunt-htmlcommenttemplate [![Build Status](https://travis-ci.org/daikiueda/grunt-htmlcommenttemplate.svg?branch=master)](https://travis-ci.org/daikiueda/grunt-htmlcommenttemplate)
 
 > Update HTML files with &lt;!-- Comment format Template --&gt; Tags.
 
