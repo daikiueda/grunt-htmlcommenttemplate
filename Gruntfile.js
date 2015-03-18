@@ -49,7 +49,8 @@ module.exports = function(grunt) {
     // Configuration to be run (and then tested).
     htmlcommenttemplate: {
       tests: {
-
+        templateDir: "./.tmp/utf8/Templates",
+        html: "./.tmp/utf8/htdocs/**/*.html"
       }
     }
   });
