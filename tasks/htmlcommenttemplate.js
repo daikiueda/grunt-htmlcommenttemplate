@@ -14,14 +14,14 @@ module.exports = function( grunt ){
 
   grunt.registerMultiTask( "htmlcommenttemplate", "Update HTML files with <!-- Comment format Template --> Tags.", function() {
 
-    if( !this.data.templateDir || !this.data.html ){
-      grunt.fail.fatal( 'htmlcommenttemplate require "templateDir" and "html".' );
+    if( !this.data.templatesDir || !this.data.html ){
+      grunt.fail.fatal( 'htmlcommenttemplate require "templatesDir" and "html".' );
       return;
     }
 
     var done = this.async();
 
-    htmlcommenttemplate( this.data.templateDir )( this.data.html )
+    htmlcommenttemplate( this.data.templatesDir )( this.data.html )
       .then(
         function( results ){
           grunt.log.ok( results.success.length + " html file(s) are updated." );
