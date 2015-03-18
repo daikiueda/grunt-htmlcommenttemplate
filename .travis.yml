@@ -7,4 +7,4 @@ before_install:
   - "npm install grunt-cli -g"
 
 script:
-  - npm test
+  - grunt test -v
