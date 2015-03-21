@@ -1,6 +1,6 @@
 {
   "name": "grunt-htmlcommenttemplate",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Update HTML files with <!-- Comment format Template --> Tags.",
   "main": "tasks/htmltemplate.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "grunt": "~0.4.5"
   },
   "dependencies": {
-    "htmlcommenttemplate": "0.0.6"
+    "htmlcommenttemplate": "^0.0.7"
   },
   "devDependencies": {
     "chai": "^2.1.2",
